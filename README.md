@@ -1,6 +1,6 @@
 # SyncGo
 
-SyncGo is a lightweight, clean, and focused synchronization utility for Android built with Flutter. It bridges the gap for Obsidian users who want to keep their Markdown-based note vaults synchronized with Google Drive without relying on background services, complex configurations, or recurring subscriptions.
+SyncGo is a hobby project, lightweight, clean, and focused synchronization utility for Android built with Flutter. It bridges the gap for Obsidian users who want to keep their Markdown-based note vaults synchronized with Google Drive without relying on background services, complex configurations, or recurring subscriptions.
 
 SyncGo follows a strict "manual-first" paradigm, giving you complete, explicit control over when and in which direction your vault synchronizes.
 
@@ -14,13 +14,11 @@ SyncGo solves a narrow problem: allowing you to sync a local vault folder with G
 
 ## Core Paradigm
 
-To keep the application highly reliable and safe, SyncGo operates on three core principles:
+To keep the application highly reliable and safe without any data lose with proper sync,
 
 - **Explicit Direction**: Synchronization is triggered manually via two primary actions:
   - **Sync Up**: Local device files are scanned and uploaded to Google Drive if they are newer or do not exist in the cloud.
-  - **Sync Down**: Google Drive is scanned and files are downloaded to the local device if they are newer or do not exist locally.
-- **Safety First**: SyncGo will never delete your files. If a file is deleted on one end, it is not deleted on the other during a sync. The MVP sync algorithm is additive and updating-only.
-- **Zero Background Overhead**: There are no background services, silent sync runners, or battery-draining monitors. SyncGo only runs when you open the app and tap sync.
+  - **Sync Down**: Google Drive is scanned and files are downloaded to the local device if they are newer or do not exist locally
 
 
 ## Architecture & Tech Stack
