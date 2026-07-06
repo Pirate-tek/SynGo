@@ -5,6 +5,14 @@ SyncGo is a hobby project, lightweight, clean, and focused synchronization utili
 SyncGo follows a strict "manual-first" paradigm, giving you complete, explicit control over when and in which direction your vault synchronizes.
 
 
+## Download
+
+You can download the latest Android application package (APK) directly from this repository:
+
+📥 **[Download SyncGo APK](./apk/syncgo-release.apk)**
+
+---
+
 ## The Problem
 
 On mobile devices, Obsidian cannot directly interface with Google Drive as a live filesystem. Existing solutions are often over-engineered, require subscriptions, rely on complex configurations, or are designed for general file-syncing rather than markdown vaults. 
