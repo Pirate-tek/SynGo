@@ -9,7 +9,7 @@ SyncGo follows a strict "manual-first" paradigm, giving you complete, explicit c
 
 You can download the latest Android application package (APK) directly from this repository:
 
-📥 **[Download SyncGo APK](./apk/syncgo-release.apk)**
+**[Download SyncGo APK](./apk/syncgo-release.apk)**
 
 ---
 
