@@ -65,7 +65,7 @@ To build and run SyncGo, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/syncgo.git
+   git clone https://github.com/Pirate-tek/SynGo
    cd syncgo
    ```
 
